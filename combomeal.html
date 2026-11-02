@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- This code embeds XML data directly into a document. 
+     All code between the <xml> tags is not HTML, but a 
+     hypothetical example of XML. --> 
+<xml id="tasty"> 
+   <combomeal> 
+      <burger> 
+       <name>Tasty Burger</name> 
+         <bun bread="white"> 
+            <meat /> 
+            <cheese /> 
+            <meat /> 
+         </bun> 
+      </burger> 
+      <fries size="large" /> 
+      <drink size="large" flavor="Cola" /> 
+   </combomeal> 
+</xml>
+<!-- This code fragment uses the src attribute to reference an  
+     external file containing XML data. --> 
+<xml src="combomeal.xml"></xml>
+
+</body>
+</html>
